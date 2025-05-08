@@ -1,9 +1,9 @@
 apiVersion: apps/v1
-kind: deployment
+kind: Deployment
 metadata:
-  name:
+  name: mydeployment
   labels:
-    apache:
+    app: apache
 spec:
   replicas: 5
   selector:
@@ -18,4 +18,4 @@ spec:
       - name: mydeploymentcont
         image: techievighnaraj650/prt-task:latest
         ports:
-        containePrort: 80
+        - containePrort: 80
