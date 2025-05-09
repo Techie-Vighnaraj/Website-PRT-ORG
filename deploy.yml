@@ -18,4 +18,4 @@ spec:
       - name: mydeploymentcont
         image: techievighnaraj650/prt-task:latest
         ports:
-        - containePrort: 80
+        - containePort: 80
