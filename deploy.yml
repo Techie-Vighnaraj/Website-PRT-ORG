@@ -18,4 +18,4 @@ spec:
       - name: mydeploymentcont
         image: techievighnaraj650/prt-task:latest
         ports:
-        - containePort: 80
+        - containerPort: 80
